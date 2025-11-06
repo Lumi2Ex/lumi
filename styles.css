@@ -1,0 +1,47 @@
+:root{
+    --light-text: black;
+}
+
+body{
+    font-family: Jetbrains Mono NF, monospace;
+}
+#theme-toggle {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 999;
+}
+
+p {
+    margin-left: 40px;
+}
+
+#projects, #about-me {
+    margin-left: 20px;
+}
+
+li {
+    list-style-type: none;
+    margin-left: 40px;
+}
+
+a {
+    color: var(--light-text);
+    text-decoration: none;
+    display: block;
+    padding-bottom: 5px;
+}
+
+a:hover {
+    text-decoration: dashed underline;
+    text-underline-offset: 8px;
+    text-decoration-color: rgb(76, 0, 255);
+}
+
+#webring nav {
+    text-align: center;
+}
+
+#webring nav a {
+    display: inline-block;
+}

@@ -1,0 +1,6 @@
+interface WebringEntry {
+   name: "lumi";
+   url: "lumi-ex.fr";
+   imageFile?: "public/webring/lumi.gif";
+   imageUrl?: "lumi-ex.fr/resources/88x31/lumi.gif";
+}
